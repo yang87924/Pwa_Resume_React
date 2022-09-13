@@ -1,5 +1,48 @@
+.image{
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: none;
+  width: 270px;margin: 10px;
+  
+}
+.resume{
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+  border: solid 2px rgb(215, 215, 216);
+  
+}
+.content {
+  @apply mx-8 mt-1;
+}
+ul{
+  list-style:none;
+  padding: 0;
+}
+@media(max-width:1200px){
+  .image{
+    width: 45%;
+  }
+}
+@media(max-width:500){
+  .image{
+    width: 90%;
+  }
+}
+@media(max-width:1200px){
+  .image{
+    width: 45%;
+  }
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+}
 .App {
   text-align: center;
+  @apply p-16 shadow-md;
 }
 
 .App-logo {

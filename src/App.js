@@ -1,21 +1,27 @@
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     
-    <div className="qwe">
+    <div className="resume">
       <h1>基本資料basic information</h1>
-      <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187385756-510d8cdb-3587-4ed4-af2c-b4ca10454a80.JPG"width={100}height={100}/><br/>
-      <div className='asad'>
-        姓名:洪偉哲<br/>
-        信箱:4a690103@office.stust.edu.tw<br/>
-        Github: https://github.com/yang87924<br/>
-      </div>
-    
+      <div className='row'>
+        <div className='col-sm-6'>
+          <p>姓名:洪偉哲<br/></p>
+          <p>信箱:4a690103@office.stust.edu.tw<br/></p>
+          <p>Github: https://github.com/yang87924<br/></p>
+        </div>
+        <div className='col-sm-6'>
+        <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187385756-510d8cdb-3587-4ed4-af2c-b4ca10454a80.JPG"width={100}height={100}/><br/>
+        </div>
+        <div className=''></div>
+      <div className='content'>
+      
       <h1>簡歷 Summary</h1>
-      我叫洪偉哲，畢業於南臺科技大學資管系，我對程式有熱忱且願意學習新技術，其中比較擅長APP部分，我很享受撰寫程式碼的感覺，對於Android開發有經驗
+      <p>我叫洪偉哲，畢業於南臺科技大學資管系，我對程式有熱忱且願意學習新技術，其中比較擅長APP部分，我很享受撰寫程式碼的感覺，對於Android開發有經驗</p>
       <h1>工作經驗 work experience</h1>
       <ul >
         <li>(C#)程式設計課程 TA。(2022/03 ~ 2022/06)</li>
@@ -36,11 +42,27 @@ function App() {
         <li>ICDL Data Analytics</li>
         <li>ICDL Computing</li>
       </ul>
+      </div>
+      </div>
       <h1>專業技能 Skills</h1>
-      <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187385972-0c144367-670d-4c73-bbd9-f489e0a459c6.png"width={100}height={100}/>
-      <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187386009-98acc5f1-fb19-4c91-9493-a223236edf73.png"width={100}height={100}/>
-      <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187386067-006c0255-f19a-411f-a7b6-bf432be27e68.png"width={100}height={100}/>
-      <img className='img'alt=""src="https://user-images.githubusercontent.com/102047848/187394449-aead1e27-b613-4cb8-8472-c0bbf993f4d3.png"width={100}height={100}/>
+      <div className='row'>
+        <div className='col-sm-3 '>
+        <img alt=""src="https://user-images.githubusercontent.com/102047848/187385972-0c144367-670d-4c73-bbd9-f489e0a459c6.png"width={100}height={100}/>
+        </div>
+        <div className='col-sm-3 '>
+        <img alt=""src="https://user-images.githubusercontent.com/102047848/187386009-98acc5f1-fb19-4c91-9493-a223236edf73.png"width={100}height={100}/>
+        </div>
+        <div className='col-sm-3 '>
+        <img alt=""src="https://user-images.githubusercontent.com/102047848/187386067-006c0255-f19a-411f-a7b6-bf432be27e68.png"width={100}height={100}/>
+        </div>
+        <div className='col-sm-3  '>
+        <img alt=""src="https://user-images.githubusercontent.com/102047848/187394449-aead1e27-b613-4cb8-8472-c0bbf993f4d3.png"width={100}height={100}/>
+        </div>
+      </div>
+      
+      
+      
+      
       <h1>學習經歷 learning experience</h1>
       <ul>
         <li>大四
